@@ -1,0 +1,29 @@
+.destination {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  margin: 40px auto;
+  width: 800px;
+
+  background: white;
+  padding: 25px;
+
+  /* GROS CONTOUR */
+  border: 5px solid black;
+
+  /* GROS RELIEF */
+  box-shadow: 10px 10px 0px black;
+}
+
+.destination img {
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.destination:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 15px 15px 0px black;
+  transition: 0.2s;
+}
