@@ -14,7 +14,7 @@ h2 {
   margin: 40px auto;
 }
 
-/* DESTINATIONS = CARTES */
+/* CARTES */
 .destination {
   display: flex;
   align-items: center;
@@ -26,14 +26,10 @@ h2 {
   background: white;
   padding: 25px;
 
-  /* GROS CONTOUR NOIR */
   border: 5px solid black;
-
-  /* EFFET 3D */
   box-shadow: 10px 10px 0px black;
 }
 
-/* IMAGE */
 .destination img {
   width: 200px;
   height: 130px;
