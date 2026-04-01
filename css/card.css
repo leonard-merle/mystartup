@@ -9,10 +9,10 @@
   background: white;
   padding: 25px;
 
-  /* GROS CONTOUR */
+
   border: 5px solid black;
 
-  /* GROS RELIEF */
+
   box-shadow: 10px 10px 0px black;
 }
 
