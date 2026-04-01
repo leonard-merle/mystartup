@@ -8,13 +8,13 @@ h2 {
   text-align: center;
 }
 
-/* CONTAINER */
+
 .container {
   width: 900px;
   margin: 40px auto;
 }
 
-/* CARTES */
+
 .destination {
   display: flex;
   align-items: center;
@@ -36,7 +36,7 @@ h2 {
   object-fit: cover;
 }
 
-/* HOVER 3D */
+
 .destination:hover {
   transform: translate(-5px, -5px);
   box-shadow: 15px 15px 0px black;
